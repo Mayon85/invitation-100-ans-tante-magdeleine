@@ -2404,7 +2404,7 @@ body:after {
 	body:after {
 		background-attachment: scroll;
 		background-position: top;
-		background-size: 100%;
+		/* background-size: 100%; */
 	}
 
 }
