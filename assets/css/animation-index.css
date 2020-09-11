@@ -25,6 +25,7 @@
 svg {
      -webkit-animation: fill 1s ease forwards 3s;
              animation: fill 1s ease forwards 3s;
+      width: 75%;
    }
 
 svg path:nth-child(1) {
