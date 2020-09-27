@@ -2763,3 +2763,25 @@ span {
 	font-weight: 500;
 	color: #282828;
 }
+
+.quotation {
+	position: relative;
+}
+
+.fa-quote-left {
+	position: absolute;
+	top: -5px;
+	left: 10px;
+	font-size: 40px;
+	opacity: 0.2;
+	color: #e89ea3;
+}
+
+.fa-quote-right {
+	position: absolute;
+	bottom: -5px;
+	right: 10px;
+	font-size: 40px;
+	opacity: 0.2;
+	color: #e89ea3;
+}
