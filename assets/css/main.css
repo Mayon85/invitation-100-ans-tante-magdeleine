@@ -2239,7 +2239,7 @@ header p {
 
 .spotlight.alt {
 	background: #282828;
-	color: rgba(255, 255, 255, 0.25);
+	color: rgb(152, 152, 152);
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
