@@ -2563,6 +2563,7 @@ body:after {
 	.wrapper>header h2:after {
 		width: 50%;
 	}
+
 	.wrapper>header p {
 		width: 100%;
 	}
@@ -2716,47 +2717,52 @@ body:after {
 
 .pulsate-fwd {
 	-webkit-animation: pulsate-fwd 0.5s ease-in-out 3 both;
-	        animation: pulsate-fwd 0.5s ease-in-out 3 both;
+	animation: pulsate-fwd 0.5s ease-in-out 3 both;
 }
 
- @-webkit-keyframes pulsate-fwd {
+@-webkit-keyframes pulsate-fwd {
 	0% {
-	  -webkit-transform: scale(1);
-			  transform: scale(1);
+		-webkit-transform: scale(1);
+		transform: scale(1);
 	}
+
 	50% {
-	  -webkit-transform: scale(1.1);
-			  transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
 	}
+
 	100% {
-	  -webkit-transform: scale(1);
-			  transform: scale(1);
+		-webkit-transform: scale(1);
+		transform: scale(1);
 	}
-  }
-  @keyframes pulsate-fwd {
+}
+
+@keyframes pulsate-fwd {
 	0% {
-	  -webkit-transform: scale(1);
-			  transform: scale(1);
+		-webkit-transform: scale(1);
+		transform: scale(1);
 	}
+
 	50% {
-	  -webkit-transform: scale(1.1);
-			  transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
 	}
+
 	100% {
-	  -webkit-transform: scale(1);
-			  transform: scale(1);
+		-webkit-transform: scale(1);
+		transform: scale(1);
 	}
-  }
-  
+}
+
 
 .overflow {
-overflow: hidden;
+	overflow: hidden;
 }
 
 .btn-back {
 	font-size: 30px;
 	color: #fff;
-	margin-left:10px;
+	margin-left: 10px;
 }
 
 span {
@@ -2784,4 +2790,16 @@ span {
 	font-size: 40px;
 	opacity: 0.2;
 	color: #e89ea3;
+}
+
+.btn-answer:after {
+	content: "";
+	border: #e89ea380 solid 1.5px;
+	border-radius: 4px;
+	width: 105%;
+	height: 125%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(-2.5%, -10%);
 }
